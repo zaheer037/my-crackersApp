@@ -20,7 +20,7 @@ This Crackers app allows users to view, search, and purchase crackers online wit
 - **Database**: MongoDB (likely based on the models directory)
 - **Version Control**: Git
 - 
-##Live Link
+## Live Link
 https://my-crackers-app.netlify.app/
 
 ## Installation
