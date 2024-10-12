@@ -1,0 +1,14 @@
+nav{
+  background-color: red;
+}
+
+.nav-item a{
+  color: white;
+  font-weight: 800;
+}
+
+.nav-item a:hover{
+  border-radius: 3cap;
+  background-color: white;
+  color: red;
+}

@@ -1,0 +1,79 @@
+.safetytipsbg{
+    max-width: 100%;
+    height: 300px;
+    background-image: url('https://srirengacrackers.com/assets/img/hero/hero1.jpg');
+    background-size: cover;
+    background-attachment: fixed; /* This is important for the parallax effect */
+    background-position: center center;
+    transition: background-position 0.1s ease-out; 
+    
+}
+.h3-text{
+    padding-top: 70px;
+}
+.dos li{
+    list-style: none;
+}
+.heading2{
+    color: red;
+}
+
+.dos .row{
+    padding-top: 70px;
+}
+.font{
+    color: darkblue;
+}
+.p-text{
+    padding-left: 30px;
+}
+.dos-donts-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .dos-column, .donts-column {
+    flex: 1;
+    margin: 0 20px;
+  }
+  
+  .dos-column h2, .donts-column h2 {
+    color: #4b0082;
+    border-bottom: 3px solid red;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+  
+  .check-icon, .cross-icon {
+    font-size: 30px;
+    margin-right: 10px;
+    color: green;
+  }
+  
+  .cross-icon {
+    color: red;
+  }
+  
+  h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  p {
+    margin: 5px 0 0;
+    color: #666;
+  }
+  

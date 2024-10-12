@@ -1,0 +1,147 @@
+.product-card {
+  display: flex;
+  align-items: center;
+  background-color: #f6e596;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  position: relative;
+  height: 150px;
+  width: 450px;
+}
+
+.product-number {
+  background-color: #ba1b1d;
+  color: white;
+  font-size: 18px;
+  border-radius: 0 10px 10px 0;
+  padding: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.product-image {
+  height: 80px;
+  width: 80px;
+  margin-right: 15px;
+  border-radius: 8px;
+}
+
+.product-details {
+  flex-grow: 1;
+}
+
+.product-details h2 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.original-price {
+  text-decoration: line-through;
+  color: #999;
+}
+
+.discounted-price {
+  font-weight: bold;
+  color: #333;
+}
+
+.quantity-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.quantity-input {
+  width: 60px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  text-align: right;
+}
+
+.total-price {
+  background-color: #d9534f;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 10px;
+  margin-top: 5px;
+  font-weight: bold;
+  text-align: center;
+  width: 65px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.add-to-cart-btn {
+  background-color: #f44336;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 30px;
+  width: 50px;
+}
+
+.cart-logo {
+  height: 25px;
+  width: 25px;
+  margin-right: 5px;
+}
+
+.disount-div{
+  text-align: center;
+  padding-top: 13px;
+  height: 50px;
+  width: 100%;
+  background-color: rgb(87, 3, 3);
+  color: white;
+}
+/* Initial bar styles */
+.product-bar {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px 0;
+  color: white;
+  background-color: rgb(171, 24, 24);
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.5s ease, position 0.5s ease;
+  position: relative; /* Initially relative to its position */
+}
+
+.product-info {
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 5px 15px;
+  border-radius: 5px;
+}
+
+.blink-red {
+  color: #8B0000; /* Red background */
+}
+
+.blink-yellow {
+  color: #FFD700; /* Yellow background */
+}
+
+/* Fixed when scrolled */
+.fixed-bar {
+  position: fixed;
+  top: 0;
+  z-index: 999;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}

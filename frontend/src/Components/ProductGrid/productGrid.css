@@ -1,0 +1,110 @@
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+  }
+  /* src/Components/productGrid.css */
+.fixed-cart-logo {
+  position: fixed;
+  top: 50px; /* Adjust the top position based on your preference */
+  right: 0px; /* Adjust the right position based on your preference */
+  background: linear-gradient(90deg, yellow, red);
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 1000; /* Make sure it's above other elements */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Optional shadow for effect */
+ 
+}
+
+.cart-logo {
+  width: 50px; /* Adjust the size of the logo */
+  height: 50px;
+  color: white;
+  text-shadow: 1px 1px 1px #ccc;
+  font-size: 2.5em;
+}
+
+.fixed-cart-logo:hover {
+  transform: scale(1.1); /* Add hover effect */
+  transition: transform 0.3s ease-in-out;
+}
+
+.reaching-div{
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+}
+.reaching-div .btn{
+  background-color: red;
+  color: white;
+  border-radius: 2cap;
+}
+
+.reaching-div .btn a{
+  text-decoration: none;
+  color: white;
+}
+
+
+
+.features-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.feature-item {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.feature-item {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* Space between the icon and the text */
+  
+}
+
+.icon {
+  font-size: 40px;
+  color: red;
+}
+
+.text h3 {
+  color: red;
+  font-weight: bold;
+  margin: 0;
+}
+
+.text p {
+  margin: 0;
+  color: gray;
+}
+.disc-div{
+  height: 50px;
+  background-color: rgb(117, 9, 9);
+  color: white;
+  text-align: center;
+  padding-top: 8px;
+}
+
+.btn-div{
+  max-width: 100%;
+  padding-left: 700px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.view-toggle-btn{
+  border: none;
+  background-color: green;
+  color: white;
+  height: 40px;
+  width: 100px;
+  border-radius: 0.5cap;
+
+}

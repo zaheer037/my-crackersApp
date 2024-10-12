@@ -1,0 +1,33 @@
+.list-view-container {
+    padding: 20px;
+  }
+  
+  .product-list-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .product-list-table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .product-list-table th {
+    background-color: red;
+    color: white;
+  }
+
+  .product-list-table td{
+    border: 1px solid #e7e7e7;
+    padding: 8px;
+    text-align: left;
+  }
+  tbody{
+    background-color: rgb(173, 87, 87);
+    color: white;
+  }
+
+  td input{
+    max-width: 50px;
+  }

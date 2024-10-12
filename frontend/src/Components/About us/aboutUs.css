@@ -1,0 +1,48 @@
+.container{
+    max-width: 80%;
+}
+.about{
+    color: red;
+    font-weight: 600;
+}
+.gilroy{
+    font-weight: 700;
+    color: black;
+}
+.col-div{
+    padding-right: 80px;
+}
+.btn1-a{
+    text-decoration: none;
+    
+}
+.btn1{
+    height: 40px;
+    width: 180px;
+    border: none;
+    background-color: red;
+    font-size: large;
+    color: aliceblue;
+    border-radius: 1cap;
+}
+.btn1:hover{
+    border-radius: 3cap;
+}
+.contactbg{
+    height: 350px;
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/142/318/349/fireworks-salute-night-holiday-wallpaper-preview.jpg');
+    background-size: cover;
+    background-attachment: fixed; /* This is important for the parallax effect */
+    background-position: center center;
+    transition: background-position 0.1s ease-out; 
+
+}
+.matter{
+   padding-top: 100px;
+}
+li.roboto{
+    list-style: none;
+}
+.red{
+    color: red;
+}
